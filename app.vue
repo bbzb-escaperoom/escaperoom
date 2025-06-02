@@ -1,5 +1,5 @@
 <template>
-  <div class="fixed inset-0 bg-grainy opacity-30 z-50"/>
+  <div class="fixed inset-0 bg-grainy opacity-30 z-50 pointer-events-none"/>
 
   <div class="max-w-lg mx-auto p-4 text-white">
     <NuxtPage/>
