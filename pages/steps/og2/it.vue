@@ -16,7 +16,7 @@
       </p>
 
       <p class="text-center text-xl">
-        In welchem Stockwerk hängt das <b>Kleinere</b> und <b>wann<b/> wurde es gemalt?
+        In welchem Stockwerk hängt das <b>Kleinere</b> und <b>wann</b> wurde es gemalt?
       </p>
 
       <p>
