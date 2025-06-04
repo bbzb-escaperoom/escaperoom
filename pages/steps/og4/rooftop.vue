@@ -12,17 +12,27 @@
 
     <div class="prose prose-lg prose-invert my-12">
       <p>
-        Neben Alu, PET und Abfall – welches an der Schule getrennt wird, was können Sie im Schulhaus noch entsorgen?
+        Diese zwei Rätsel ergeben je ein Lösungswort. Wenn Sie die beiden Lösungsworte zusammenführen, erhalten Sie den
+        Hinweis, nach was Sie im 1.OG suchen sollen:
       </p>
-      <p>
-        Tipp 1: Es wird ein Zimmer gesucht. Die richtige Nummer erhalten Sie, wenn Sie folgende Aufgabe lösen:
-      </p>
+
       <p class="text-center text-xl">
-        Das Doppelte einer Zahl plus 8 ergibt 280. Welches Zimmer ist es?
+        „Ich bin winzig klein, eine Masseinheit, die man kaum sieht, doch in Technik und Forschung man mich genießt.“
+      </p>
+
+      <p class="text-center text-xl">
+        „Mal hoch, mal tief, ich tanze im Meer, doch auch unsichtbar trag ich Geräusche umher.“
+      </p>
+
+      <p class="text-center">
+        Lösungswort 1 + Lösungswort 2<br>
+        = _ _ _ _ _ _ _ _
+      </p>
+
+      <p>
+        Suchen Sie den Ort und scannen Sie den richtigen QR-Code, um weiterzukommen.
       </p>
     </div>
 
   </GroupSelector>
 </template>
-<script setup lang="ts">
-</script>
