@@ -67,7 +67,7 @@ function showWrongAnswerOverlay() {
               leave-active-class="transition duration-500 ease-in origin-bottom perspective-midrange"
               leave-from-class="opacity-100"
               leave-to-class="opacity-0 rotate-x-90">
-    <div class="grid grid-cols-1 gap-4 sticky bottom-4" v-if="!wrongAnswerOverlayVisible">
+    <div class="grid grid-cols-1 gap-4" v-if="!wrongAnswerOverlayVisible">
       <button v-for="option in possibleAnswers"
               :key="option"
               class="bg-gray-200 hover:bg-gray-300 text-gray-800 font-semibold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
