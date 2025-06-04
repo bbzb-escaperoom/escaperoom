@@ -2,60 +2,117 @@
   <GroupSelector>
 
     <template #group-a>
-      <div class="prose prose-lg prose-invert mt-40">
+      <div class="prose prose-lg prose-invert my-12">
+
         <p>
-          Tippen Sie auf den Button, sobald Sie bereit sind:
+          Diese zwei Rätsel ergeben je ein Lösungswort. Wenn Sie die beiden Lösungsworte zusammenführen, erhalten Sie
+          den
+          Hinweis, nach was Sie im 1.OG suchen sollen:
+        </p>
+
+        <p class="text-center text-xl">
+          „Ich bin winzig klein, eine Masseinheit, die man kaum sieht, doch in Technik und Forschung man mich genießt.“
+        </p>
+
+        <p class="text-center text-xl">
+          „Mal hoch, mal tief, ich tanze im Meer, doch auch unsichtbar trag ich Geräusche umher.“
+        </p>
+
+        <p class="text-center">
+          Lösungswort 1 + Lösungswort 2<br>
+          = _ _ _ _ _ _ _ _
+        </p>
+
+        <p>
+          Suchen Sie den Ort und scannen Sie den richtigen QR-Code, um weiterzukommen.
         </p>
       </div>
-      <div class="text-center mt-10">
-        <NuxtLink to="/steps/og1/start"
-                  class="mt-20 text-2xl bg-red-500 text-white px-8 py-4 rounded hover:bg-red-600 transition-colors">
-          Start
-        </NuxtLink>
-      </div>
     </template>
+
     <template #group-b>
-      <div class="prose prose-lg prose-invert mt-40">
+      <svg id="Ebene_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 523.13 512.65" class="w-64 mx-auto my-12">
+        <path fill="#ffffff"
+              d="m258.85,476.6c-123.2,0-217.59-102-216.56-218.67,1.01-114.26,94.08-214.92,217.08-214.82,121.77.1,216.7,99.9,216.55,217.03-.15,117.37-95.62,216.8-217.07,216.46Zm-35.96-247.42c-2.95,1.82-5.36,3.25-7.7,4.77-31.02,20.11-45.56,54.23-38.74,90.16,9.75,51.39,59.4,77.13,100.45,69.52,40.98-7.59,79.2-47.82,70.02-100.86-4.37-25.23-17.87-45.03-39.09-59.48-1.82-1.24-3.6-2.55-5.69-4.03,1.45-1.15,2.51-2.04,3.61-2.88,12.84-9.8,23.58-21.51,32.05-35.29,2.35-3.82,4.57-7.72,6.96-11.51,1.94-3.08,3.93-6.15,6.11-9.05,5.71-7.59,13.25-11.92,22.84-12.42,2.24-.12,4.48-.23,6.71-.48,2.72-.3,4.81-1.76,5.76-4.3,2.91-7.77,3.85-14.19-8.48-14.46-17.22-.37-32.06,4.54-42.28,19.49-5.06,7.4-10.08,14.85-15.42,22.05-5.51,7.42-11.12,14.79-17.18,21.75-5.94,6.83-13.24,12.06-21.64,15.65-3.65,1.56-7.35,2.47-11.42,2.14-4.18-.34-8.43-.46-12.6-.07-5.25.48-9.96-.82-14.61-2.97-5.91-2.73-11.37-6.19-15.94-10.79-4.54-4.56-9.05-9.23-12.91-14.35-5.57-7.37-10.47-15.25-15.8-22.8-3.87-5.49-7.72-11.04-12.06-16.16-6.55-7.73-14.94-12.74-25.02-14.31-5.23-.81-10.59-1.19-15.88-1.15-7.88.05-10.39,3.22-9.62,11.2.08.84.15,1.68.34,2.5.87,3.72,3.07,5.87,6.89,6.35,2.49.31,5.04.29,7.56.32,9.3.15,16.84,3.91,22.49,11.23,2.91,3.77,5.54,7.75,8.2,11.7,3.29,4.88,6.39,9.89,9.71,14.75,8.27,12.14,17.86,23.03,30.08,31.41.66.46,1.15,1.18,2.29,2.38Z"/>
+        <path fill="#ffffff"
+              d="m258.92,238.96c32.61.52,58.95,21.68,65.67,53.58,7.92,37.58-20.72,86.02-72.06,81.81-30.62-2.51-56.58-26.7-60.53-58.34-4.41-35.29,18.71-66.87,51.18-74.87,5.12-1.26,10.49-1.48,15.74-2.18Z"/>
+      </svg>
+
+      <div class="prose prose-lg prose-invert my-12">
         <p>
-          Tippen Sie auf den Button, sobald Sie bereit sind:
+          Bewegen Sie sich in den zweiten Stock und gehen Sie dann ohne weitere Treppen zu nutzen in Richtung
+          Süden / Südwesten bis am Ende vom Gang.
+        </p>
+
+        <p class="text-center text-xl">
+          Welche Tür wird am häufigsten geöffnet?
+        </p>
+
+        <p>
+          Scannen Sie den richtigen QR-Code, um weiterzukommen.
         </p>
       </div>
-
-      <div class="text-center mt-10">
-        <NuxtLink to="/steps/og1/batteries"
-                  class="mt-20 text-2xl bg-red-500 text-white px-8 py-4 rounded hover:bg-red-600 transition-colors">
-          Start
-        </NuxtLink>
-      </div>
     </template>
+
     <template #group-c>
-      <div class="prose prose-lg prose-invert mt-40">
+      <svg id="Ebene_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 523.13 512.65" class="w-64 mx-auto my-12">
+        <path fill="#ffffff"
+              d="m256.94,36.04c123.52.39,217.06,100.43,217.21,216.49.16,117.96-94.99,216.56-215.57,217.17-122.5.62-216.46-98.74-218.06-213.85-1.6-115.61,90.72-218.9,216.41-219.82Zm-43.13,208.67c-3.16-.95-5.21-1.63-7.3-2.2-33.21-9.06-60.42,15.69-61.98,43.21-1.62,28.68,22.64,57.61,58.14,50.26,22.01-4.56,34.95-19.03,40.04-40.64,3.59-15.23,1.87-30.19-3.89-44.55-3.43-8.56-7.75-16.78-12-24.98-4.13-7.96-8.99-15.54-12.98-23.57-3.35-6.75-6.4-13.74-8.72-20.9-4.5-13.89-3.58-27.7,2.63-40.97,5.77-12.31,15.06-20.78,28.23-24.66,7.21-2.12,14.47-2.07,21.43.87,14.81,6.26,24.85,16.93,29.17,32.63,1.73,6.27,2.19,12.69,2.27,19.16.27,24.71-4.6,48.51-13.13,71.56-4.66,12.61-10.17,24.9-15.13,37.41-4.03,10.15-8.05,20.32-11.62,30.64-4.08,11.79-5.68,24.01-4.46,36.47,1.38,14.02,6.15,26.72,15.68,37.35,15.6,17.39,40.67,16.37,55.92,2.66,6.84-6.15,11.64-13.62,14.24-22.43,3-10.16,2.99-20.5,1.01-30.81-.62-3.26-1.92-6.45-3.34-9.47-.64-1.36-2.16-2.8-3.58-3.22-4.46-1.33-8.18.79-11.62,3.39-2.91,2.19-2.9,5.26-2.31,8.4.72,3.85,1.83,7.65,2.3,11.54,1,8.34-.47,16.26-5.44,23.2-7.91,11.03-21.61,12.24-31.36,2.82-4.52-4.36-7.64-9.65-9.55-15.63-2.55-7.96-2.29-16.05-.93-24.14,1.92-11.4,5.91-22.19,10.18-32.87,4.98-12.49,10.24-24.88,15.15-37.41,7.8-19.88,14.26-40.16,16.85-61.46,1.8-14.81,2.29-29.65-.85-44.37-3.29-15.41-9.7-29.26-21.22-40.32-12.88-12.36-28.2-17.86-46.08-15.9-13.29,1.46-24.56,7.3-34.82,15.54-8.33,6.68-14.19,15.05-17.62,25.13-6.25,18.37-6.8,36.78-.43,55.26,2.94,8.53,7.03,16.5,11.42,24.32,4.25,7.58,8.65,15.08,12.92,22.64.9,1.6,1.55,3.34,2.78,6.04Z"/>
+        <path fill="#ffffff"
+              d="m220.96,291.63c1.08,13.57-14.47,25.26-28.36,24.84-18.61-.57-27.69-14.93-27.34-27.84.42-15.53,12.45-27.64,27.87-27.5,15.97.15,28.01,13.34,27.84,30.5Z"/>
+      </svg>
+
+      <div class="prose prose-lg prose-invert my-12">
         <p>
-          Tippen Sie auf den Button, sobald Sie bereit sind:
+          Vom Künstler Franz Bucher hängen zwei Bilder im Schulhaus. Das grössere davon hängt im zweiten Stockwerk.
+        </p>
+
+        <p class="text-center text-xl">
+          In welchem Stockwerk hängt das <b>Kleinere</b> und <b>wann</b> wurde es gemalt?
+        </p>
+
+        <p>
+          Die richtige Antwort führt Sie weiter.
         </p>
       </div>
 
-      <div class="text-center mt-10">
-        <NuxtLink to="/steps/og2/it"
-                  class="mt-20 text-2xl bg-red-500 text-white px-8 py-4 rounded hover:bg-red-600 transition-colors">
-          Start
-        </NuxtLink>
-      </div>
+      <MultipleChoiceQuestion
+          correct-answer="1990"
+          :wrong-answers="['1970', '2010']"
+          @answer-correct="answeredCorrectlyC"
+      />
     </template>
+
     <template #group-d>
-      <div class="prose prose-lg prose-invert mt-40">
+      <svg id="Ebene_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 523.13 512.65" class="w-64 mx-auto my-12">
+        <path fill="#ffffff"
+              d="m260.11,41.1c124.64.37,217.01,102.02,217.13,216.56.13,115.88-93.43,216.9-216.53,217.07-122.45.16-216.94-99.68-217.12-216.46-.18-116.1,93.26-216.54,216.52-217.17Zm-20.06,229.4c-1.78,1.96-3.58,4.04-5.48,6.03-15.86,16.65-31.79,33.23-47.58,49.93-8.09,8.56-16,17.28-23.89,26.03-2.24,2.49-4.18,5.26-6.13,7.99-1.87,2.62-1.5,5.27.33,7.78.49.68,1,1.35,1.57,1.97,4.18,4.51,9.51,5.49,13.89.9,3.87-4.05,8.07-7.79,11.94-11.84,22.08-23.11,44.1-46.28,66.17-69.41,1.46-1.53,3.16-2.85,4.97-4.46,2.43,2.31,4.48,4.18,6.44,6.14,9.53,9.5,19.04,19.03,28.56,28.54,1.59,1.58,3.11,3.27,4.87,4.63,4.21,3.25,8.86,2.77,12.87-1.12,4.07-3.95,4.74-8.33,1.61-12.79-1.59-2.28-3.56-4.33-5.53-6.31-10.07-10.15-20.22-20.23-30.3-30.38-1.32-1.33-2.42-2.87-3.89-4.63,2.37-2.62,4.36-4.92,6.45-7.12,15.45-16.26,30.91-32.51,46.38-48.75,14.89-15.64,29.77-31.27,44.7-46.87,1.02-1.07,1.92-3.02,4.4-1.49,0,9.32-.01,18.84,0,28.36.02,11.78-.01,23.55.12,35.33.03,3.06.34,6.17.95,9.17.8,3.88,3.07,5.72,6.96,6.17,1.38.16,2.81.16,4.2.04,4.57-.42,7.21-2.74,7.93-7.25.39-2.48.41-5.03.43-7.54.15-13.46.27-26.91.34-40.37.05-9.81.09-19.63-.03-29.44-.06-4.76-.4-9.53-.84-14.27-.78-8.34-5.46-13.84-12.94-17.22-3.68-1.66-7.54-1.95-11.51-1.94-20.47.08-40.94.08-61.41.18-7.85.04-15.7.13-23.55.43-6.62.25-8.29,2.11-8.48,8.71-.03,1.12,0,2.25.12,3.36.55,4.91,2.54,7.05,7.39,7.53,3.06.3,6.16.27,9.24.27,19.91-.02,39.82-.11,59.73-.08,1.76,0,4-.97,5.27,1.7-.81,1.01-1.6,2.16-2.55,3.15-31.72,33.29-63.46,66.56-95.22,99.82-1.09,1.14-2.42,2.05-3.81,3.21-1.43-1.24-2.53-2.08-3.49-3.06-8.03-8.22-16.03-16.48-24.05-24.71-2.35-2.41-4.58-4.96-7.13-7.13-3.85-3.27-8.93-2.84-12.97.76-3.56,3.17-4.62,8.16-2.1,12.17,1.77,2.82,3.98,5.43,6.31,7.83,7.41,7.65,15,15.13,22.46,22.74,2.13,2.17,4.79,3.91,6.23,7.33Z"/>
+      </svg>
+
+      <div class="prose prose-lg prose-invert my-12">
         <p>
-          Tippen Sie auf den Button, sobald Sie bereit sind:
+          Auf dem Stockwerk, mit den Zimmernummern 400, gibt es auch Zugang zum allergrössten “Zimmer” des Hauses.<br>
+          Von dort aus sehen Sie ein rotes Plakat.
+        </p>
+
+        <p class="text-center text-xl">
+          Welcher der drei Werte auf dem roten Plakat hat am wenigsten Buchstaben?
+        </p>
+
+        <p>
+          Beim Eingang hängen die verschiedenen Symbole – welches ist das richtige? Scannen Sie den richtigen QR-Code.
         </p>
       </div>
 
-      <div class="text-center mt-10">
-        <NuxtLink to="/steps/og3/helppoint"
-                  class="mt-20 text-2xl bg-red-500 text-white px-8 py-4 rounded hover:bg-red-600 transition-colors">
-          Start
-        </NuxtLink>
-      </div>
     </template>
 
   </GroupSelector>
 </template>
+
+<script setup lang="ts">
+
+function answeredCorrectlyC() {
+  alert("Richtig! Das kleinere Bild hängt im dritten Stockwerk und wurde 1990 gemalt.");
+  navigateTo('/steps/og3/franz');
+}
+
+</script>
