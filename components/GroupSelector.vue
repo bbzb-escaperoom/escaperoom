@@ -1,34 +1,34 @@
 <script setup lang="ts">
 import {ref, computed} from 'vue'
 
-const selectedGroup = ref<'a' | 'b' | 'c' | 'd' | null>(null);
+type OneOfTheGroups = 'a' | 'b' | 'c' | 'd';
+
+const selectedGroup = ref<OneOfTheGroups | null>(null);
 
 onMounted(() => {
   if (window.localStorage) {
     const storedGroup = window.localStorage.getItem('selectedGroup');
 
     if (['a', 'b', 'c', 'd'].includes(storedGroup as string)) {
-      selectedGroup.value = storedGroup as 'a' | 'b' | 'c' | 'd';
+      selectedGroup.value = storedGroup as OneOfTheGroups;
     } else {
       selectedGroup.value = null;
     }
   }
 });
 
-function selectGroup(group: 'a' | 'b' | 'c' | 'd' | null) {
+function selectGroup(group: OneOfTheGroups | null) {
   selectedGroup.value = group;
   if (window.localStorage) {
     window.localStorage.setItem('selectedGroup', group ?? '');
   }
 }
 
-const hasGroupSelected = computed(() => selectedGroup.value !== null);
-
 </script>
 
 <template>
 
-  <div v-if="hasGroupSelected" class="text-center mb-4">
+  <div v-if="selectedGroup !== null" class="text-center mb-4">
     <a href="#" class="text-gray-400 rounded" @click="selectGroup(null)">
       <p class="text-lg">Sie haben <span class="font-bold">Gruppe {{ selectedGroup.toUpperCase() }}</span> ausgewählt
       </p>
@@ -36,7 +36,7 @@ const hasGroupSelected = computed(() => selectedGroup.value !== null);
     </a>
   </div>
 
-  <div class="grid grid-cols-2 gap-4" v-if="!hasGroupSelected">
+  <div class="grid grid-cols-2 gap-4" v-if="selectedGroup === null">
 
     <div class="col-span-2">
       <p class="text-center text-gray-400">Tippen Sie auf eine Gruppe, um fortzufahren.</p>

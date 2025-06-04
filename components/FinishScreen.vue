@@ -12,9 +12,7 @@ onMounted(() => {
 
   c.start()
 
-  setTimeout(() => {
-    c.stop()
-  }, 5000) // Stop confetti after 5 seconds
+  setTimeout(c.stop, 5000)
 })
 </script>
 
